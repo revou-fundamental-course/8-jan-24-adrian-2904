@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Matematik</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="Navbar">Katik</h1>
+            <p class="textNavbar">Kalkulator Matematik</p>
+        </nav>
+        <div>
+            <h4>Welcome to Katik</h4>
+            <h6>Menghitung Luas dan Keliling Persegi Secara Otomatis</h6>
+        </div>
+    </header>
+    
+    <main>
+        <h1 class="Navbar" id="luasPersegi">Luas Persegi</h1>
+        <div>
+            <img src="Assets/persegi-pqrs.webp" width= 400px height= 280px>
+        </div>
+        <p>Rumus Luas Persegi Yaitu:</p>
+        <h5>L = S X S</h5>
+        <p>Dimana :</p>
+        <p>L = Luas</p>
+        <p>S = Sisi</p>
+        <div class="inputSection">
+            <label for="Isi" id="lblSquareSide">Hitung Luas Persegi</label>
+            <input type="number" id="squareSide" name="Isi" placeholder="Isi(CM)">
+        </div>
+        <p>L = S X S</p>
+        <p>L = <span id="Luas"></span></p>
+        <div class="button">
+            <button onclick="jumlah()">Hitung</button>
+        </div>
+        <h1 class="Navbar" id="luasPersegi">Keliling Persegi</h1>
+        <div>
+            <img src="Assets/persegi-pqrs.webp" width= 400px height= 280px>
+        </div>
+        <p>Rumus Keliling Persegi Yaitu:</p>
+        <h5>K = 4 X S</h5>
+        <p>Dimana :</p>
+        <p>K = Keliling</p>
+        <p>S = Sisi</p>
+        <div class="inputSection">
+            <label for="Isi" id="lblSquareSide">Hitung Keliling Persegi</label>
+            <input type="number" id="Keliling" name="Isi" placeholder="Isi(CM)">
+        </div>
+        <p>K = 4 X S</p>
+        <p>K = <span id="kel"></span></p>
+        <div class="button" id="Hitung">
+            <button onclick="Result()">Hitung</button>
+        </div>
+    </main>
+    
+    <footer>
+        <h4>Created By:</h4>
+        <h4>Muhammad Adrian Al-Farizi</h4>
+    </footer>
+    <script src="js/script.js" ></script>
+</body>
+</html>

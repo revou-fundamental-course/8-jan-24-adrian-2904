@@ -1,0 +1,103 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:linear-gradient(red,blue,green);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    background-color: #FF9843;
+}
+
+.Navbar {
+    height: 48px;
+    color: white;
+    font-family: 'Sofia', cursive;
+}
+
+div {
+    text-align: center;
+}
+.textNavbar {
+    height: -4px;
+    color:#F8E559;
+}
+
+h6 {
+    margin: -10px;
+}
+
+#luasPersegi {
+    height: 100px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C499F3;
+    font-size: 25px;
+    color: cyan;
+}
+
+h5 {
+    text-align: center;
+}
+
+.inputSection {
+    display: flex;
+    flex-direction: column;
+}
+
+#squareSide {
+    margin-top: 15px;
+    outline: none;
+    border-radius: 8px;
+    border: solid black;
+    padding: 10px;
+}
+
+#squareSide:focus {
+    border: solid;
+}
+
+#Keliling {
+    margin-top: 15px;
+    outline: none;
+    border-radius: 8px;
+    border: solid black;
+    padding: 10px;
+}
+
+#Keliling:focus {
+    border: solid;
+}
+
+button {
+    background-color: #3887BE;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3887BE;
+}
+
+button:active {
+    background-color: #38419D;
+    transform: translateY(2px);
+}
+
+h4 {
+    text-align: center;
+}
