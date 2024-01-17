@@ -8,7 +8,15 @@ function jumlah() {
     document.getElementById(`Luas`).innerHTML = hasil;
 }
 
+//reset
+function resetBtn() {
+    document.getElementById(`squareSide`).value = '';
+}
+
+
 //Keliling Persegi//
+
+//Hitung//
 function Result() {
     var s = document.getElementById(`Keliling`).value;
     var a = " X "
@@ -17,4 +25,9 @@ function Result() {
     var hasil = 4*s
     document.getElementById(`oke1`).innerHTML = Result
     document.getElementById(`kel`).innerHTML = hasil;
+}
+
+//reset//
+function buttonReset() {
+    document.getElementById(`Keliling`).value = '';
 }
